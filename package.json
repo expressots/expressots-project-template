@@ -61,22 +61,28 @@
     "git": "powershell -Command \"git add .; git commit -m \"%1\"; npm run release\"",
     "release": "release-it",
     "test": "jest",
-    "format:write": "prettier --write \"packages/**/*.ts\" --cache"
+    "format": "prettier --write \"src/**/*.ts\" --cache",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix"
   },
   "dependencies": {
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-conventional": "^17.4.4",
-    "@release-it/conventional-changelog": "^6.0.0",
     "dotenv": "^16.0.3",
-    "husky": "^8.0.3",
     "jest": "^29.5.0",
-    "reflect-metadata": "^0.1.13",
-    "release-it": "^15.9.3"
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@release-it/conventional-changelog": "^7.0.1",
     "@types/jest": "^29.5.0",
     "@types/node": "^20.4.9",
-    "prettier": "3.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.48.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "release-it": "^16.1.5",
     "ts-jest": "^29.0.5",
     "typescript": "^5.2.2"
   },

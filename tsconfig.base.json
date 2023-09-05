@@ -19,7 +19,10 @@
       "jest"
     ],    
 },
-  "files": [
-    "packages/core/src/index.ts",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
   ]
 }
