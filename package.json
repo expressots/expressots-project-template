@@ -50,6 +50,7 @@
     "node": ">=18.10.0"
   },
   "scripts": {
+    "prepare": "husky install",
     "win-clean": "if exist lib (del /q lib\\*)",
     "linux-clean": "rm -rf lib/*",
     "win-cpy": "xcopy package.json lib\\ && xcopy README.md lib\\ && xcopy CHANGELOG.md lib\\ /Y",
