@@ -1,6 +1,9 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+[![Codecov][codecov-shield]][codecov-url]
+[![NPM][npm-shield]][npm-url]
+![Build][build-shield]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -92,16 +95,22 @@ Distributed under the MIT License. See [`LICENSE.txt`](https://github.com/expres
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/expressots/expressots?style=for-the-badge
-[contributors-url]: https://github.com/expressots/expressots/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/expressots/expressots?style=for-the-badge
-[forks-url]: https://github.com/expressots/expressots/forks
-[stars-shield]: https://img.shields.io/github/stars/expressots/expressots?style=for-the-badge
-[stars-url]: https://github.com/expressots/expressots/stargazers
-[issues-shield]: https://img.shields.io/github/issues/expressots/expressots?style=for-the-badge
-[issues-url]: https://github.com/expressots/expressots/issues
-[license-shield]: https://img.shields.io/github/license/expressots/expressots?style=for-the-badge
-[license-url]: https://github.com/expressots/expressots/blob/main/LICENSE
+
+[codecov-url]: https://codecov.io/gh/expressots/expressots-project-template
+[codecov-shield]: https://img.shields.io/codecov/c/gh/expressots/expressots-project-template/main?style=for-the-badge&logo=codecov&labelColor=FB9AD1
+[npm-url]: https://www.npmjs.com/package/@expressots/expressots-project-template
+[npm-shield]: https://img.shields.io/npm/v/@expressots/expressots-project-template?style=for-the-badge&logo=npm&color=9B3922
+[build-shield]: https://img.shields.io/github/actions/workflow/status/expressots/adapter-express/build.yaml?branch=main&style=for-the-badge&logo=github
+[contributors-shield]: https://img.shields.io/github/contributors/expressots/expressots-project-template?style=for-the-badge
+[contributors-url]: https://github.com/expressots/expressots-project-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/expressots/expressots-project-template?style=for-the-badge
+[forks-url]: https://github.com/expressots/expressots-project-template/forks
+[stars-shield]: https://img.shields.io/github/stars/expressots/expressots-project-template?style=for-the-badge
+[stars-url]: https://github.com/expressots/expressots-project-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/expressots/expressots-project-template?style=for-the-badge
+[issues-url]: https://github.com/expressots/expressots-project-template/issues
+[license-shield]: https://img.shields.io/github/license/expressots/expressots-project-template?style=for-the-badge
+[license-url]: https://github.com/expressots/expressots-project-template/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/expresso-ts/
 [product-screenshot]: images/screenshot.png
